@@ -6,14 +6,14 @@ def multiply(x,y):
     print(x*y)
 def divide(x,y):
     print(x/y)
-def sqroot(x):
+def square(x):
     print(x*x)
 
 print("A. addition")
 print("B substraction")
 print("C multiply")
 print("D divide")
-print("S square root")
+print("S square")
 print("Q exit")
 while True:
     choice= input("input your choice 🚀"+"\n")
@@ -39,7 +39,7 @@ while True:
         b = int(input("input second number"))
         divide(a,b)
     elif choice == "S" or choice == "s":
-        print("squre root"+"\n")
+        print("squre"+"\n")
         a = int(input("input the number to be squared"))
         sqroot(a)
 
